@@ -31,7 +31,7 @@ async function getDashboardData(query) {
     }
 }
 
-// Esegui la funzione con 'london' per test
+
 getDashboardData('london')
     .then(data => {
         console.log('Dashboard data:', data);
